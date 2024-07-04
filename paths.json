@@ -1,0 +1,31 @@
+{   "generation_path" : "//*[@id='mw-content-text']/div[1]/p[1]",
+    "name_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr/td[1]/big/big/b",
+    "cat_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr/td[1]/a/span",
+    "types_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr//td[not(contains(@style, 'display: none'))]//b",
+    "abilities_path" : "//table[contains(@class, 'roundy')]//span[contains(text(), 'Ability') or contains(text(), 'Abilities')]//ancestor::td//tbody//td[not(contains(@style, 'display: none'))]//span",
+    "gender_ratio_path" : "//table[contains(@class, 'roundy')]//span[contains(@style, 'color:#0000FF;') or contains(@style, 'color:#FF6060;')]",
+    "catch_rate_path" : "//*[@id='mw-content-text']/div[1]/table[2]//span[contains(text(), 'Catch rate')]//ancestor::td//tbody//tr//td",
+    "egg_group_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[5]/td/table/tbody/tr/td[1]/table/tbody/tr/td",  
+    "hatch_time_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[5]/td/table/tbody/tr/td[2]/table/tbody/tr/td",
+    "height_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[6]/td[1]/table/tbody/tr[1]/td[2]",
+    "weight_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[6]/td[2]/table/tbody/tr[1]/td[2]",
+    "exp_yield_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[8]/td[1]/table/tbody/tr/td[3]",
+    "levelling_rate_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[8]/td[2]/table/tbody/tr",
+    "evs_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[9]/td/table//tr[not(contains(@style, 'display:none;'))]//td",
+    "friendship_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[11]/td[2]/table/tbody/tr",
+    "evo_info_path" : "//*[@id='mw-content-text']/div[1]/p[2]",
+    "locations_path": "//*[@id='mw-content-text']/div[1]/table[contains(@class, 'roundy') and contains(@style, 'margin:auto;') and contains(@style, 'width: 100%;') and contains(@style, 'border: 3px') and contains(@style, 'padding:2px;')]",
+    "stats_path" : "//*[@id='mw-content-text']/div[1]/table[contains(@style, 'border-radius: 10px;') and contains(@style, 'border-collapse: separate;')]/tbody//tr[contains(@style, 'background')]//th[contains(@style, 'justify-content: space-between;')]",
+    "type_effectivness_path" : "//*[@id='mw-content-text']/div[1]/table[contains(@class, 'roundy') and contains(@width, '100%') and contains(@align, 'center')]//td[contains(@align, 'left')]",
+    "manage_privacy_button_path" : "//*[@id='cmpwelcomebtnyes']/a",
+    "next_page_arrow_path" : "//*[@id='mw-content-text']/div[1]/table[1]/tbody/tr[2]/td[3]/table/tbody/tr/td[3]/a",
+    "moves_path" : "//*[@id='mw-content-text']/div[1]/table[contains(@class, 'roundy') and contains(@style, 'margin:auto; background')]/tbody//table[contains(@class, 'sortable jquery-tablesorter')]",
+    "secondary_egg_group_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[4]/td/table/tbody/tr/td[1]/table/tbody/tr/td/a/span",
+    "secondary_hatch_time_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr/td",
+    "secondary_weight_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[5]/td[2]/table/tbody/tr[1]/td[2]",
+    "secondary_levelling_rate_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[7]/td[2]/table/tbody/tr/td",
+    "secondary_friendship_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[10]/td[2]/table/tbody/tr/td"
+
+}
+
+
