@@ -5,14 +5,14 @@ import pandas as pd
 from utils import *
 
 
-url = 'https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pok%C3%A9mon)'
+url = 'https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)'
 driver.get(url) #imported from utils
 
 
 
 
 
-def get_data(driver):
+def get_data():
         name = get_name()
         category = get_category()
         generation = get_generation()
@@ -107,11 +107,11 @@ if __name__ == "__main__":
         
         data = []
         privacy_check_accept(driver)
-        data.append(get_data(driver))
+        data.append(get_data())
         print(1)
-        for i in range(1):
+        for i in range(1024):
                 goto_next_page(driver)
-                data.append(get_data(driver))
+                data.append(get_data())
                 print(i+2)
 
 

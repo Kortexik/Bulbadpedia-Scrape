@@ -4,7 +4,7 @@ import json
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
-from selenium.common.exceptions import TimeoutException, NoSuchElementException, JavascriptException
+from selenium.common.exceptions import NoSuchElementException
 
 chrome_options = Options()
 chrome_options.add_argument('--no-sandbox')
@@ -54,10 +54,15 @@ def get_gender_ratios():
     try:
         elements = driver.find_elements(xp, paths['gender_ratio_path'])
         ratios = [gr.get_attribute('innerText') for gr in elements]
-        if ratios != []:
+        if len(ratios) > 1:
             male_ratio = ratios[0]
             female_ratio = ratios[1]
             return male_ratio, female_ratio
+        
+        elif len(ratios) == 1:
+            male_ratio = female_ratio = ratios[0]
+            return male_ratio, female_ratio
+        
         else:
             male_ratio = female_ratio = 'Gender unknown'
             return male_ratio, female_ratio
