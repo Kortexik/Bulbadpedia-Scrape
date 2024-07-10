@@ -11,7 +11,7 @@
     "weight_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[6]/td[2]/table/tbody/tr[1]/td[2]",
     "exp_yield_path" : "//*[@id='mw-content-text']/div[1]/table[2]//span[contains(text(), 'Base experience yield')]//ancestor::td//table//tbody//td[not(contains(@style, 'display:none'))]",
     "levelling_rate_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[8]/td[2]/table/tbody/tr",
-    "evs_path" : "//*[@id='mw-content-text']/div[1]/table[2]//span[contains(text(), 'EV yield')]//ancestor::td//table//tr[not(contains(@style, 'display:none;'))]//td",
+    "evs_path" : "//*[@id='mw-content-text']/div[1]/table[2]//a[contains(@class, 'mw-redirect')]//span[contains(text(), 'EV yield')]//ancestor::td//table//tbody//tr",
     "friendship_path" : "//*[@id='mw-content-text']/div[1]/table[2]/tbody/tr[11]/td[2]/table/tbody/tr",
     "evo_info_path" : "//*[@id='mw-content-text']/div[1]/p[2]",
     "locations_path": "//*[@id='mw-content-text']/div[1]/table[contains(@class, 'roundy') and contains(@style, 'margin:auto;') and contains(@style, 'width: 100%;') and contains(@style, 'border: 3px') and contains(@style, 'padding:2px;')]",

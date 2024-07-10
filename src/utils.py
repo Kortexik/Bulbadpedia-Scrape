@@ -124,8 +124,8 @@ def get_lvl_rate():
 
 def get_evs():
     try:
-        elements = driver.find_elements(xp, paths['evs_path'])
-        return [ev.get_attribute('innerText') for ev in elements]
+        evs = driver.find_elements(xp, paths['evs_path'])[2]
+        return evs.get_attribute('innerText')
     except Exception as e:
         print(f"Error fetching EVs: {e}")
         return []
